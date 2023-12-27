@@ -1,4 +1,4 @@
-package com.kali.training;
+package com.kali.training.basic;
 
 public class HelloWorld {
 
