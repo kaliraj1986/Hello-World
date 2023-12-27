@@ -3,7 +3,6 @@ package com.kali.training;
 public class HelloWorld {
 
 	public static void main(String[] args) throws Exception {
-		// TODO Auto-generated method stub
 		System.out.println("Hello World");
 		
 		int i = 0;
