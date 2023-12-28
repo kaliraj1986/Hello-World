@@ -1,4 +1,4 @@
-package com.kali.training.basic;
+package com.java.basics.operators;
 
 public class LogicalOperators {
 	public static void main(String[] args) {

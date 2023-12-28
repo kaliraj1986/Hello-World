@@ -1,10 +1,10 @@
-package com.kali.training.basic;
+package com.java.basics.operators;
 
 public class BitwiseANDOperator {
 	/**
 	 * The bitwise AND & operator returns 1 if and only if both the operands are 1. Otherwise, it returns 0.
 	 
-	12 = 00001100 (In Binary)
+			12 = 00001100 (In Binary)
 			25 = 00011001 (In Binary)
 
 			// Bitwise AND Operation of 12 and 25
@@ -20,6 +20,6 @@ public class BitwiseANDOperator {
 
 	    // bitwise AND between 12 and 25
 	    result = number1 & number2;
-	    System.out.println(result);    // prints 8
+	    System.out.println("Bitwise AND Result >>"+result);    // prints 8
 	  }
 }
