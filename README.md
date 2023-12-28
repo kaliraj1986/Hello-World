@@ -1,12 +1,12 @@
-#Java Basics
+# Java Basics
 
-##Introduction
+## Introduction
 
-##Variable
+## Variable
 
-##Data types
+## Data types
 
-##Operators
+## Operators
 Operators are symbols that perform operations on variables and values
 	
 Operators in Java can be classified into 5 types:
@@ -19,7 +19,13 @@ Operators in Java can be classified into 5 types:
 	6. Bitwise Operators
 	
 	
+### Assignment Operators
+	
 |Operator  | Example  |  Equivalent to|
 |----------|----------|---------------|
-|=		   | a = b;	  |a = b;         |
+|=		   |a = b;	  |a = b;         |
 |+=		   |a += b;	  |a = a + b;     |
+|-=		   |a -= b;	  |a = a - b;|
+|*=	|a *= b;|	a = a * b;|
+|/=	|a /= b;|	a = a / b;|
+|%=	|a %= b;|	a = a % b;|
