@@ -17,13 +17,13 @@ public class ForLoop {
 
 	public static void main(String[] args) {
 
-		repeatStatement();
+//		repeatStatement();
 		
 		printSeqNo();
 		
-		sumSeqNo();
+//		sumSeqNo();
 		
-		nestedForLoop();
+//		nestedForLoop();
 
 	}
 	
@@ -41,11 +41,15 @@ public class ForLoop {
 		for (int i = 1; i <= n; ++i) {
 			System.out.println(i);
 		}
+		
+		for (int i = n; i >= 0; --i) {
+			System.out.println(i);
+		}
 	}
 
 	private static void sumSeqNo() {
 		int sum = 0;
-		int n = 1000;
+		int n = 100;
 
 		// for loop
 		for (int i = 1; i <= n; ++i) {
@@ -57,7 +61,7 @@ public class ForLoop {
 	}
 	
 	private static void nestedForLoop() {
-		int n = 15;
+		int n = 25;
 		// for loop  
 		for (int i = 1; i <= n; ++i) {
 			System.out.println("");
